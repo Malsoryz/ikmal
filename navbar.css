@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+.navbar .icon{
+  color: white;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-family: Segoe UI, Sans-Serif;
+  color: white;
+}
+.navbar ul li a:hover{
+  color: #60ffff;
+  border-bottom: 2px solid #60ffff;
+}
+.navbar ul li a:active{
+  color: #2f20ff;
+  border-bottom: 2px solid #2f20ff;
+}
